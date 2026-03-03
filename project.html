@@ -38,83 +38,117 @@
         color: #252b42;
         font-weight: 700;
       }
-      .nav_container2{
+      .nav_container2 {
         display: flex;
         justify-content: space-between;
       }
-      .nav_left{
+      .nav_left {
         font-size: 3rem;
         font-weight: 700;
       }
-      .project_grid{
+      .project_grid {
         width: 600px;
       }
-      .img_container{
+      .img_container {
         display: flex;
         gap: 30px;
         justify-content: center;
         padding: 10px;
-        margin-top: 50px; 
+        margin-top: 50px;
       }
-      .content_bistro{
+      .content_bistro {
         display: flex;
-        padding: 60px;
+        padding: 100px;
         font-family: "Monserrat", sans-serif;
+        gap: 60px;
+        
+         justify-content: space-between;
+      }
+      abbr {
+        text-decoration: none;
+      }
+      
+      .bistro_content {
+        font-weight: 700;
+      }
+      a {
+        text-decoration: none;
+        color: #252b42;
       }
     </style>
   </head>
   <body>
     <header class="nav2">
-        <div class="nav_container2">
+      <div class="nav_container2">
         <div class="nav_left">
-            <h1>My prOjecTs.</h1>
+          <h1>My prOjecTs.</h1>
         </div>
-      <div class="nav_menu2">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
+        <div class="nav_menu2">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
     </header>
     <div class="img_container">
       <div>
-        <img src="IMAGES/1sec.png" class="project_grid">
+        <img src="IMAGES/1sec.png" class="project_grid" />
       </div>
       <div>
-        <img src="IMAGES/2sec.png" class="project_grid">
-      </div>
-    </div>
-    <div class="img_container">
-      <div>
-        <img src="IMAGES/3sec.png" class="project_grid">
-      </div>
-      <div>
-        <img src="IMAGES/4sec.png" class="project_grid">
+        <img src="IMAGES/2sec.png" class="project_grid" />
       </div>
     </div>
     <div class="img_container">
       <div>
-        <img src="IMAGES/5sec.png" class="project_grid">
+        <img src="IMAGES/3sec.png" class="project_grid" />
       </div>
       <div>
-        <img src="IMAGES/6sec.png" class="project_grid">
+        <img src="IMAGES/4sec.png" class="project_grid" />
       </div>
     </div>
     <div class="img_container">
       <div>
-        <img src="IMAGES/7sec.png" class="project_grid">
+        <img src="IMAGES/5sec.png" class="project_grid" />
       </div>
       <div>
-        <img src="IMAGES/8sec.png" class="project_grid">
+        <img src="IMAGES/6sec.png" class="project_grid" />
+      </div>
+    </div>
+    <div class="img_container">
+      <div>
+        <img src="IMAGES/7sec.png" class="project_grid" />
+      </div>
+      <div>
+        <img src="IMAGES/8sec.png" class="project_grid" />
       </div>
     </div>
     <div class="content_bistro">
-      <div>
-        <p><i class="fab fa-github"></i>The Bistro Food Commerce Interface</p>
-
+      <div class="bistro_content">
+        <a href="https://github.com/buikeisodd/NASA_BOMBERS.git">
+          <abbr title="Click to check repository"
+            ><i
+              class="fab fa-github fa-flip"
+              style="animation-iteration-count: 10; animation-duration: 2s"
+            ></i
+            >The Bistro Food Commerce Interface</abbr
+          >
+        </a>
       </div>
       <div>
-
+        <p style="font-weight: 700;">
+          The project is built using a responsive, mobile-first grid system
+          utilizing CSS grid. The layout is divided into distinct, reusable sections designed
+          for high performance and scalability.
+        </p>
+      </div>
+      <div>
+        <h1>
+          Stack(s)
+        </h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
       </div>
     </div>
   </body>
