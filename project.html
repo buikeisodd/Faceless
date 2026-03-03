@@ -67,6 +67,11 @@
       abbr {
         text-decoration: none;
       }
+      abbr:hover{
+        font-size: 1.1rem;
+        transition-duration: 0.4s;
+        color: black;
+      }
       
       .bistro_content {
         font-weight: 700;
@@ -85,6 +90,11 @@
         text-decoration: none;
         color: #252b42;
       }
+      .menu_hover:hover{
+        font-size: 1.1rem;
+        transition-duration: 0.4s;
+        color: black;
+      }
     </style>
   </head>
   <body>
@@ -94,9 +104,9 @@
           <h1>My prOjecTs.</h1>
         </div>
         <div class="nav_menu2">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
+          <a href="index.html" class="menu_hover">Home</a>
+          <a href="about.html" class="menu_hover">About</a>
+          <a href="contact.html" class="menu_hover">Contact</a>
         </div>
       </div>
     </header>
@@ -151,9 +161,9 @@
           for high performance and scalability.
         </p>
          <div class="stacks">
-        <h1>
+        <h2>
           Stack(s)
-        </h1>
+        </h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -162,6 +172,7 @@
       </div>
       
     </div>
+    <hr>
    
   </body>
 </html>

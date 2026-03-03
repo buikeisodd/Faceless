@@ -4,44 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <Style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #FAFAFA;
-            color: #737373;
-           
-        }
-        .nav_container{
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            letter-spacing: 0.2px;
-        }
-        .nav_menu a{
-          text-decoration: none;
-          font-family: "Monserrat", sans-serif;
-          padding: 0px 10px;
-          color: #252B42;
-          font-weight: 700;
-        }
-        .nav_right h6{
-          font-size: 4rem;
-          font-family: "Monserrat", sans-serif;
-          color: #252B42;
-          font-weight: 700;
-        }
-        .hero_section h1{
-          margin: 100px auto;
-          text-align: center;
-          font-family: "Monserrat", sans-serif;
-          font-size: 4rem;
-          color: #252B42;
-          font-weight: 700;
-          
-        }
-    </Style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #fafafa;
+        /* color: #737373; */
+      }
+      .nav_container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        letter-spacing: 0.2px;
+        color: #252b42;
+      }
+      .nav_menu a {
+        text-decoration: none;
+        font-family: "Monserrat", sans-serif;
+        padding: 0px 10px;
+        color: #252b42;
+        font-weight: 700;
+      }
+      .nav_right h6 {
+        font-size: 4rem;
+        font-family: "Monserrat", sans-serif;
+        color: #252b42;
+        font-weight: 700;
+      }
+      .hero_section h1 {
+        margin: 100px auto;
+        text-align: center;
+        font-family: "Monserrat", sans-serif;
+        font-size: 4rem;
+        color: #252b42;
+        font-weight: 700;
+      }
+      .download_section {
+        /* justify-content: center; */
+        text-align: center;
+      }
+      .download_content {
+        text-decoration: none;
+        color: #252b42;
+        font-family: "Monserrat", sans-serif;
+        font-weight: 700;
+      }
+      .download_content:hover {
+        font-size: 1.1rem;
+        transition-duration: 0.4s;
+        color: black;
+      }
+      .menu_hover:hover{
+        font-size: 1.1rem;
+        transition-duration: 0.4s;
+        color: black;
+      }
+    </style>
   </head>
   <body>
     <header class="nav">
@@ -52,15 +71,23 @@
           <h6>Emmanuel</h6>
         </div>
         <div class="nav_menu">
-          <a href="project.html">Projects</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
+          <a href="project.html" class="menu_hover">Projects</a>
+          <a href="about.html" class="menu_hover">About</a>
+          <a href="contact.html" class="menu_hover">Contact</a>
         </div>
       </div>
     </header>
     <!-- MID SECTION -->
     <div class="hero_section">
       <h1>JUNIOR FRONT-END DEVELOPER.</h1>
+    </div>
+    <div class="download_section">
+      <a
+        href="FILE/cv.pdf"
+        download="ESEAGWU Chibuike Emmanuel: CV"
+        class="download_content"
+        >Click here to download my CV</a
+      >
     </div>
   </body>
 </html>
