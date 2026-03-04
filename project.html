@@ -97,6 +97,35 @@
         transition-duration: 0.4s;
         color: black;
       }
+
+      @media (max-width: 640px) {
+          .nav_container2 {
+            display: flex;
+             flex-direction: column-reverse;
+            gap: 8px;
+          }
+
+          .img_container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+          }
+
+          .img_container div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .img_container img {
+            width: 100%;
+          }
+
+          .content_bistro {
+            padding: 0;
+          }
+        }
     </style>
   </head>
   <body>
